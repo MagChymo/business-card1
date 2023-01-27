@@ -1,0 +1,32 @@
+body {
+    margin: 20px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-style:italic;
+}
+
+.avatar {
+    width: 150px; height: 180px;
+    border-radius: 15px;
+}
+
+.state-change:hover{transform: scale(1.5);}
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    background-image: linear-gradient(#faedcd, #ddb892);
+    color: #2b2839;
+    border: 1px solid #03045e;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px 2px #03045e;
+    line-height: 0.5;
+        
+}
